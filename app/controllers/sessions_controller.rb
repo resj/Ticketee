@@ -14,7 +14,7 @@ class SessionsController < ApplicationController
       redirect_to root_url
     else
       flash[:error] = "Sorry."
-      render new
+      render "new"
     end
   end
 end
